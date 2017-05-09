@@ -1,0 +1,292 @@
+/* FONT ==================================================================== */ 
+
+@font-face {
+    font-family: Champagne;
+    src: url(../font/Champagne.ttf);
+}
+@font-face {
+    font-family: segoeuil;
+    src: url(../font/segoeuil.ttf);
+}
+@font-face {
+    font-family: segoeui;
+    src: url(../font/segoeui.ttf);
+}
+
+/* ISI ==================================================================== */
+
+body{
+	font-family:segoeui;
+	/*background:url(../images/background.jpg);*/
+	background-attachment:fixed;
+	padding:0px;
+	margin:0px;
+}
+.main{ /* kotak login */
+	background:#8dc63f;
+}
+.putehputeh{
+	width:20px;
+	height:40px;
+	background:#fff;
+	float:left;
+	margin-top:15px;
+}
+.label{  /* gambar W */
+	width:50px;
+	height:50px;
+	background:url(../images/label.png) no-repeat;
+	float:right;
+	margin:0 10px;
+}
+.header { /* TULISAN Login */
+	width:100%;
+	height:50px;
+	padding:0px;
+	margin-bottom:30px;
+}
+	.header h2 {
+		color:#fff;
+		font-family: Champagne;
+		margin:20px 20px;
+		padding:20px 10px;
+	}
+.form_login{ /*form minimal*/
+	width:100%;
+	min-height:100px; /*tinggi minimal*/
+	overflow:hidden;
+}
+.tulisan {
+	padding:10px;
+	color:#fff;
+	text-align:center;
+}
+.form_login span{
+	float:left;
+	width:13%;
+	height:50px;
+	border:1px solid #fff;
+	margin:0px 0 20px 30px ;
+}
+
+.username{
+	background:url(../images/username.jpg);
+	width:50px;
+	height:50px;
+}
+.form_login input[type=text]{
+	width:70%;
+	margin:0px 20px 20px 0;
+	padding:14px 5px ;
+	border:1px solid #fff;
+	background:#fff;
+	right:left;
+	font-size:17px;
+	font-family:segoeuil;
+	line-height:130%;
+}
+.password{
+	background:url(../images/password.jpg);
+	width:50px;
+	height:50px;
+	
+}
+.form_login input[type=password]{
+	width:70%;
+	margin:0px 20px 20px 0;
+	padding:14px 5px ;
+	border:1px solid #fff;
+	background:#fff;
+	right:left;
+	font-size:17px;
+	font-family:segoeuil;
+	line-height:130%;
+}
+
+.btn_login {
+	margin:0 20px 30px 30px ;
+}
+.form_login table input[type=submit]{
+	background:#fff;
+	height:50px;
+	border:1px solid #afafaf;
+	width:86.5%;
+	box-shadow:0px 7px 1px #39b54a;
+	cursor:pointer;
+	font-size:20px;
+	font-family:segoeuil;
+}	
+/* JUDUL TAMPILAN KIRI ==================================================================== */
+
+.kiri {
+	float:left;
+	width:50%;
+	min-height:200px;
+	overflow:hidden;
+}
+.logo {
+	width:100%;
+	height:120px;
+	margin:40px 50px 30px 50px;
+}
+.garis {
+	width:100%;
+	height:1px;
+	background:#ce5c5b;
+}
+.judul {
+	width:100%;
+	min-height:362px;
+	margin:30px 50px 20px 50px;
+	font-family: segoeui;
+	line-height:1.2em;
+	font-size:30px;
+	color:#3b1a4f;
+}
+
+/*tengah - CONTEN KETIKA SUDAH LOGIN =================================================*/
+
+
+.header2{
+	width:98%;
+	min-height:30px;
+	overflow:hidden;
+	background:#8dc63f;
+	padding:10px;
+}
+.header2 h2{
+	margin:5px;
+	padding:0;
+	font-family:segoeuil;
+	color:#fff;
+}
+.content{
+	width:97%;
+	min-height:500px;
+	overflow:hidden;
+	background:#fff;
+	padding:15px;
+}
+	.content input[type=text],textarea {
+		width:100%;
+		margin:0px 20px 0px 0;
+		padding:5px 5px ;
+		border:1px solid #dfdfdf;
+		background:#fff;
+		font-size:17px;
+		font-family:segoeui;
+	}
+	.content input[type=select],select {
+		width:97%;
+		margin:0px 20px 0px 0;
+		padding:5px 5px ;
+		border:1px solid #dfdfdf;
+		background:#fff;
+		font-size:17px;
+		font-family:segoeui;
+	}
+.tombol_content {
+	background:#fff;
+	width:100px;
+	height:30px;
+	border:1px solid #afafaf;
+	cursor:pointer;
+	text-align:center;
+	font-size:14px;
+	font-family:segoeui;
+}
+.logo2{
+	width:1%;
+	height:120px;
+	margin:50px 100px 100px 1145px;
+}
+
+@media all and (min-width: 100px){
+	.container{
+
+		max-width: 1000px;
+
+		margin: auto;
+
+		padding: 0 0 0 10px;
+		
+		_background:#000;
+
+	}
+	
+}
+
+
+/* LOGOUT */
+.top {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8dc63f;
+	position:fixed;
+	width:100%;
+}
+
+.top li {
+	float:left;
+	border-left: 1px solid #fff;
+}
+
+.top li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top li a:hover {
+    background-color:  #39b54a;
+}
+.data-nama {
+	height:30px;
+	width:600px;
+	float:left;
+}
+	.data-nama h4 {
+		margin:3px 10px;
+	    color:#fff;
+	}
+.wrap{
+	float:right;
+	margin:50px;
+	min-height:100px;
+	width:400px;
+}
+/* BAWAH ==================================================================== */
+
+.back_footer {	
+	width:400px;
+	height:24px;
+	background:#fff;
+	opacity:0.4;
+	float:left;
+	text-align:center;
+	font-size:12px;
+	color:#9f2727;
+	padding-top:5px;
+	margin-top:10px;
+}
+.back_footer2 {	
+	width:100%;
+	height:24px;
+	background:#fff;
+	opacity:0.4;
+	float:left;
+	text-align:center;
+	font-size:12px;
+	color:#9f2727;
+	padding-top:5px;
+	margin-top:35px;
+}
