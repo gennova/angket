@@ -58,7 +58,7 @@
 						+soal13+soal14+soal15+soal16+soal17+soal18+soal19+soal20+soal21+soal22+soal23+soal24+soal25)as sum from angket where namaguru!='' AND namaguru='$search' || cabang='$search' || kota='$search'";
 				$result=mysql_query($query);
 				echo mysql_error();			
-		    echo "dataaaaaaaaaaaaaaaaaaaaaa";
+		    //echo "dataaaaaaaaaaaaaaaaaaaaaa";
 				if($result){
 					$i=0;
 					echo"<table align='center'><tr><td><table border='1'><tr>
