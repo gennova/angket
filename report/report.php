@@ -37,6 +37,7 @@
 	  </div>
 		<div class="content">
 			<fieldset>Hasil Angket		<a href='hasil/hasil.php'><input style='float:right; width:100px;' type='button' value='Go'/></a></fieldset><br><br>
+			<fieldset>Hasil Angket Rekap Per Guru		<a href='hasil/hasil.php'><input style='float:right; width:100px;' type='button' value='Go'/></a></fieldset><br><br>
 			<fieldset>Cek Siswa  		<a href='ceksiswa/ceksiswa.php'><input style='float:right; width:100px;' type='button' value='Go'/></a></fieldset><br><br>
 		</div>
 	</div>
